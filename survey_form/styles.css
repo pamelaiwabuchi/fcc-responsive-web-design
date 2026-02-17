@@ -1,0 +1,95 @@
+@media (max-width: 650px) {
+  form {
+    max-width: 100%;
+    padding: 20px 10px;
+    margin: 0 10px;
+    }
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #83f0ee;
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+    background: linear-gradient(rgba(131,240,238,0.9), rgba(131,240,238,0.8))   , url('image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+     color: #eb3c99;
+     padding: 25px;
+     display: flex;
+     flex-direction: column;
+     
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    border: 2px solid #eb3c99;
+    padding: 40px 20px;
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    color: #de2789;
+    font-weight:500;
+    border-radius:30px;
+}
+
+#nome, #email, #idade, #dropdown{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+span{
+    font-size: 13px;
+}
+
+button{
+    display: block;
+    margin: 30px auto 0 auto;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+}
+
+select, :placeholder-shown{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+}
+
+.comentarios{
+    margin-top: 30px;
+}
+
+textarea{
+    margin-top: 20px;
+}
+
+.categoria{
+    margin-bottom: 30px;
+}
+
+.container-radio{
+    margin-top: 2px;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label, .container-radio{
+    color: #555053;
+}
+
+
